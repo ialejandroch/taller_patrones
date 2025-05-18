@@ -2,7 +2,16 @@
 
 ## Ejercicio 1
 
-Por hacer
+**Tipo de patrón**: Creational
+
+
+**Nombre del patrón**: Builder
+
+El patrón Builder resuelve el problema al separar la construcción de un objeto complejo (Automóvil) de su representación final, permitiendo configurar parámetros opcionales (motor, color, techo solar, etc.) mediante métodos descriptivos y encadenados que evitan constructores sobrecargados, garantizan inmutabilidad al inicializar atributos solo una vez durante la construcción, y ofrecen flexibilidad para omitir o personalizar características sin necesidad de subclases o valores predeterminados, manteniendo el código limpio, escalable y fácil de mantener.
+
+**Diagrama de Clases**
+
+![Diagrama de Clases](./exercise-1/diagrama_1.png)
 
 ## Ejercicio 2
 
@@ -18,6 +27,10 @@ Este ejercicio demuestra el patrón Bridge al separar la abstracción (notificac
 
 ![Diagrama de Clases](./exercise-2/diagram_2.png)
 
+## Ejercicio 3
+
+Por hacer
+
 ### Cómo ejecutar
 
 Asegúrate de tener [Node.js](https://nodejs.org/) instalado.
@@ -25,9 +38,6 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado.
 En tu terminal, navega a la carpeta del proyecto y ejecuta:
 
 ```bash
+node exercise-1/main.js
 node exercise-2/main.js
 ```
-
-## Ejercicio 3
-
-Por hacer
