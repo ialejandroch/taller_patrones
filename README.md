@@ -39,7 +39,7 @@ Ha sido elegido porque el problema que enfrentamos es de comunicación entre mú
 
 **Diagrama de Clases**
 
-![Diagrama de Clases](./exercise-3/diagram_3.png)
+![Diagrama de Clases](./exercise-3/diagrama_clases.png)
 
 
 ### Cómo ejecutar
