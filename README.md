@@ -44,10 +44,10 @@ Ha sido elegido porque el problema que enfrentamos es de comunicación entre mú
 
 ### Cómo ejecutar
 
-[Node.js](https://nodejs.org/) instalado para los ejercicios 1 y 2, y [Python](https://www.python.org/) instalado para el ejercicio 3.
+[Node.js](https://nodejs.org/) instalado para los ejercicios 1, 2 y 3 
 
 ```bash
 node exercise-1/main.js
 node exercise-2/main.js
-python exercise-3/main.py
+node exercise-3/main.js
 ```
