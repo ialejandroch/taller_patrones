@@ -29,15 +29,25 @@ Este ejercicio demuestra el patrón Bridge al separar la abstracción (notificac
 
 ## Ejercicio 3
 
-Por hacer
+**Tipo de patrón:** Comportamiento
+
+**Nombre del patrón:** Patrón Mediador (Mediator Pattern).
+
+Se define el Patrón Mediador para este escenario porque permite que los usuarios se comuniquen de manera centralizada a través de un mediador (Sala de Chat), eliminando la necesidad de que cada usuario mantenga referencias directas a todos los demás. Esto reduce la complejidad y facilita el mantenimiento.
+
+Ha sido elegido porque el problema que enfrentamos es de comunicación entre múltiples objetos (usuarios) que necesitan interactuar entre sí en un entorno de chat grupal, y esto presenta un desafío de complejidad y acoplamiento.
+
+**Diagrama de Clases**
+
+![Diagrama de Clases](./exercise-3/diagrama_clases.png)
+
 
 ### Cómo ejecutar
 
-Asegúrate de tener [Node.js](https://nodejs.org/) instalado.
-
-En tu terminal, navega a la carpeta del proyecto y ejecuta:
+[Node.js](https://nodejs.org/) instalado para los ejercicios 1, 2 y 3 
 
 ```bash
 node exercise-1/main.js
 node exercise-2/main.js
+node exercise-3/main.js
 ```
